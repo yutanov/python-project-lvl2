@@ -31,3 +31,4 @@ jobs:
 
       - name: Run test
         run: make test
+      - uses: paambaati/codeclimate-action@v2.2.4
