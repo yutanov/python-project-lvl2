@@ -30,5 +30,4 @@ jobs:
         run: make lint
 
       - name: Run test
-        run: |
-          poetry run pytest --cov=gendiff tests/ --cov-report xml
+        run: make test
