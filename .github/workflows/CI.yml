@@ -17,6 +17,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install poetry
+          poetry env use 3.8
           make install
           
       - name: Run lint
