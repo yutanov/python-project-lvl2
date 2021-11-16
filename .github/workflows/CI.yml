@@ -32,8 +32,6 @@ jobs:
 
       - name: Run test
         run: make test
-          coverage run -m unittest
-
       - name: Test & publish code coverage
         uses: paambaati/codeclimate-action@v3.0.0
         env:
