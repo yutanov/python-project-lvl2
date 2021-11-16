@@ -11,7 +11,7 @@ package-install:
 lint:
 	poetry run flake8 gendiff
 test:
-	poetry run coverage run -m pytest tests
+	poetry run pytest tests
 package-reinstall:
 	python3 -m pip install --force-reinstall dist/*.whl
 build-reinstall:
